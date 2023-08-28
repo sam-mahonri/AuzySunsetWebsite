@@ -7,7 +7,7 @@
     --fulllight: #f5f4fd;
     --secdark: #16131dbe;
     --enfdark: rgb(121, 75, 237);
-    --dark-trans: #1e173179;
+    --dark-trans: #291f45f3;
     --enfdarkbt: #5b4c7470;
     --moredark: #08031d63;
     --seclight: #c6c0f5;
@@ -152,7 +152,7 @@ body {
 }
 
 .navbar_area{
-    backdrop-filter: blur(16px);
+    
     z-index: 99;
     display: flex;
     flex-direction: column;
@@ -827,16 +827,16 @@ button, a > button{
     align-items: center;
     gap: 16px;
     min-height: 22px;
-    max-width: 45px;
+    max-width: 47px;
     cursor: pointer;
     position: fixed;
     bottom: 24px;
     right: 72px;
     border-radius: 32px;
     background-color: var(--fulldark);
-    
+    border: solid 1px rgba(255, 255, 255, 0.2);
     padding: 8px 16px 8px 16px;
-    border: none;
+    
 }
 .lang_bt:hover{
     max-width: 256px;
@@ -907,10 +907,13 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: var(--dark-trans);
+    background-color: transparent;
+    backdrop-filter: blur(32px);
     box-sizing: border-box;
     padding: 32px;
     height: auto;
+    border-top: solid 1px var(--enfdark);
+    box-shadow: 0px 0px 32px var(--enfdark);
 }
 
 footer > a > img{
@@ -1120,7 +1123,6 @@ noscript{
     overflow: hidden;
     max-height: 0px;
     opacity: 0;
-    backdrop-filter: blur(16px);
 
 }
 
