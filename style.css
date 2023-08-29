@@ -226,7 +226,6 @@ body {
 }
 
 .nav_buttons:hover{
-    
     background-color: var(--enfdarkbt);
 }
 
@@ -788,7 +787,10 @@ button, a > button{
     border: solid 1px rgba(255, 255, 255, 0.201);
     overflow: hidden;
     backdrop-filter: blur(8px);
-}.card_button::after{
+}
+
+/*
+.card_button::after{
     content: '';
     background-image: url('source/noisy.png');
     position:fixed;
@@ -799,6 +801,7 @@ button, a > button{
     opacity:0.05;
     pointer-events:none;
 }
+*/
 
 .card_button > i{
     font-size: 22pt;
