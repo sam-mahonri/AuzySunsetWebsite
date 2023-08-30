@@ -47,6 +47,12 @@ async function carregarTodosOsElementos() {
             document.getElementById('page_name').innerHTML = '<i class="fas fa-music"></i>';
         }else if (currentPage == "comms"){
             document.getElementById('comms').classList.add("active_nav_bt");
+            document.getElementById('page_name').innerHTML = '<i class="fas fa-shopping-cart"></i>';
+        }else if (currentPage == "goals"){
+            document.getElementById('goals').classList.add("active_nav_bt");
+            document.getElementById('page_name').innerHTML = '<i class="fas fa-medal"></i>';
+        }else if (currentPage == "donations"){
+            document.getElementById('donations').classList.add("active_nav_bt");
             document.getElementById('page_name').innerHTML = '<i class="fas fa-heart"></i>';
         }else{
             document.getElementById('page_name').innerHTML = '';
