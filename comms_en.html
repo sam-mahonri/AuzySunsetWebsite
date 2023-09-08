@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Commissions - Auzy Sunset</title>
+</head>
+<body>
+    <div class="todo">
+        
+        <div class="horizontal_todo">
+            <div id="nav_area">
+            </div>
+            
+            <div class="content_vertical">
+                <div class="vh_content_normal">
+                    <div id="warn_area" class="hide_element"></div>
+                    <div class="vh_mid_banner">
+                        <div class="title">
+                            Commissions
+                        </div>
+                        <span class="info_alert green">Open</span>
+                        <i class="fas fa-chevron-down down_anim"></i>
+                    </div>
+                    <div class="info">
+                        Last update in September 5th, 2023
+                    </div>
+                    <div class="subtitle">
+                        My services 
+                    </div>
+                    <div class="divisor"></div>
+                    
+                    
+                    
+                    <div class="subtitle">
+                        Make contact!
+                    </div>
+                    <div class="tags_info">
+                        <a href="https://twitter.com/auzysun" target="_blank"><button class="social_bt "><i class="fab fa-twitter"></i>Twitter</button></a>
+                        
+                        <a href="https://instagram.com/auzysun" target="_blank"><button class="social_bt insta"><i class="fab fa-instagram"></i>Instagram</button></a>
+                        
+                        <a href="https://t.me/auzyartchannel" target="_blank"><button class="social_bt blue_light"><i class="fab fa-telegram-plane"></i>Telegram</button></a>
+
+                    </div>
+                    <div class="divisor" style="margin-top: 32px !important; margin-bottom: 32px !important;"></div>
+                    <div class="subtitle">
+                        Availability
+                    </div>
+                    <div class="text">Check the queue on Trello</div>
+                    <a style="margin-top: 8px; margin-bottom: 16px;" href="https://trello.com/b/EsrxFD7B/auzytrello" target="_blank"><button class="social_bt blue_light"><i class="fab fa-trello"></i>Trello</button></a>
+                    
+                    
+                    <div class="divisor"></div>
+                    <div class="title" id="artdesign">
+                        Arts & Design
+                    </div>
+                    <div class="subtitle">
+                        Drawings
+                    </div>
+                    <div class="cards_area" style="margin-top: 16px; margin-bottom: 16px;">
+                        <a href="#fullrendered">
+                            <div onclick="onlyShowPrices()" class="post_card" style="background-image: url('https://pbs.twimg.com/media/F2pDZU2W4AEYTor.jpg?name=orig'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                <span class="title_post"><i class="fas fa-pen-fancy"></i>Full rendered</span>
+                                <div class="text">Discreet Lineart + Color + Light and shading + Scenario*</div>
+                                <div class="info_alert green">Available</div>
+                            </div>
+                            
+                        </a>
+                        <a href="#colored">
+                            <div onclick="onlyShowPrices()" class="post_card" style="background-image: url('https://pbs.twimg.com/media/F4i6wXXXMAAN6ah.jpg?name=orig'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                <span class="title_post"><i class="fas fa-pen-fancy"></i>Colored</span>
+                                <div class="text">Apparente Lineart + Color</div>
+                                <div class="info_alert green">Available</div>
+                            </div>
+                        </a>
+                        <a href="#sketch">
+                            <div onclick="onlyShowPrices()" class="post_card" style="background-image: url('https://pbs.twimg.com/media/F2UQnrDXEAAf0ov.png?name=orig'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                <span class="title_post"><i class="fas fa-pen-fancy"></i>Sketch - Lineart</span>
+                                <div class="text">Sketch with or without color</div>
+                                <div class="info_alert green">Available</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cards_area" style="margin-bottom: 16px;">
+                        
+                        <a>
+                            <div class="post_card" style="background-image: url('./source/posts/auzyref.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                <span class="title_post"><i class="fas fa-pen-fancy"></i>Refsheet</span>
+                                <div class="text">Reference sheet for your character/fursona/fursona</div>
+                                <div class="info_alert green">Available - Make your budget</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="post_card" style="background-image: url('https://pbs.twimg.com/media/F4ewBzvXoAATwEf.jpg?name=orig'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                <span class="title_post"><i class="fas fa-pen-fancy"></i>Digital Oil Paint</span>
+                                <div class="text">Digital oil painting in high definition</div>
+                                <div class="info_alert green">Available - Make your budget</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tags_info">
+                        <a href="./arts">
+                            <button class="normal_bt">See my arts<i class="fas fa-link"></i></button>
+                        </a>
+                        <button class="normal_bt" onclick="seePrices(this)" id="show_prices">See prices<i class="fas fa-money-bill-wave"></i></button>
+                    </div>
+                    
+                    <div class="content_vertical hide_element" id="prices">
+                        <div class="divisor"></div>
+                        <div class="subtitle" id="fullrendered">
+                            Full rendered
+                        </div>
+                        
+                        <div class="cards_area" style="margin-top: 16px; margin-bottom: 16px;">
+                            <div class="card_button none_cursor">
+                                Icon
+                                <div class="title">$ 25</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Half body
+                                <div class="title">$ 60</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Full body
+                                <div class="title">$ 90</div>
+                            </div>
+                        </div>
+                        <div class="tags_info">
+                            <div class="info_alert green">Complex scenario: Up to + USD50</div>
+                            <div class="info_alert green">Simple scenario: For free</div>
+                            <div class="info_alert orange">Additional character: up to + 30% from the initial value</div>
+                        </div>
+                        <div class="subtitle" id="colored" style="margin-top: 16px;">
+                            Colored
+                        </div>
+                        <div class="cards_area" style="margin-top: 16px; margin-bottom: 16px;">
+                            <div class="card_button none_cursor">
+                                Icon
+                                <div class="title">$ 15</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Half body
+                                <div class="title">$ 40</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Full body
+                                <div class="title">$ 70</div>
+                            </div>
+                        </div>
+                        <div class="tags_info">
+                            <div class="info_alert green">Complex scenario: Up to + USD30</div>
+                            <div class="info_alert green">Simple scenario: For free</div>
+                            <div class="info_alert orange">Additional character: up to + 20% from the initial value</div>
+                        </div>
+                        <div class="subtitle" id="sketch" style="margin-top: 16px;">
+                            Sketch - Lineart
+                        </div>
+                        <div class="cards_area" style="margin-top: 16px; margin-bottom: 16px;">
+                            <div class="card_button none_cursor">
+                                Icon
+                                <div class="title">$ 10</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Half body
+                                <div class="title none_cursor">$ 30</div>
+                            </div>
+                            <div class="card_button none_cursor">
+                                Full body
+                                <div class="title">$ 50</div>
+                            </div>
+                        </div>
+                        <div class="tags_info">
+                            <div class="info_alert green">Complex scenario: Up to + USD10</div>
+                            <div class="info_alert green">Simple scenario: For free</div>
+                            <div class="info_alert orange">Additional character: up to + 10% from the initial value</div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <footer id="footer"></footer>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="splash_all" id="splash_all"><img class="big_logo" src="./source/logomarca.png"></div>
+    <noscript>
+        <img src="./source/icon_trans_white.png" width="72px" height="72px">
+        Para continuar utilizando este site, ative o Javascript em seu navegador e atualize esta página.
+    </noscript>
+    <div id="floating_area"></div>
+    <div id="lang_area"></div>
+    <script>var page_lang = "en"; </script>
+    <script>var currentPage = "comms"</script>
+    <script src="start_modules.js"></script>
+</body>
+
+</html>
