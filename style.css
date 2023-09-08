@@ -667,6 +667,8 @@ a{
     animation: infinite pulseOpacity 2s;
 }
 
+
+
 @keyframes pulseOpacity {
     0%{
         opacity: 1;
