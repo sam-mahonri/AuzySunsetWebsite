@@ -646,12 +646,37 @@ a{
 }
 
 .divisor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 4px;
-    background-color: rgba(255, 255, 255, 0.11);
+    max-height: 4px;
+    background-image: linear-gradient(to right, #ffffff58, transparent, #ffffff58);
     margin-top: 18px;
     margin-bottom: 18px;
     border-radius: 8px;
+}.divisor::after{
+    position: relative;
+    content: '';
+    background-image: url('./source/divider_orn.png');
+    height: 72px;
+    width: 72px;
+    background-size: cover;
+    background-position: center;
+    animation: infinite pulseOpacity 2s;
+}
+
+@keyframes pulseOpacity {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .info_alert{
