@@ -1298,3 +1298,17 @@ noscript{
     flex-direction: column;
     align-items: center;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, transparent,var(--enfdark) ,transparent);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-image: linear-gradient(to right, transparent,var(--enfdark) ,transparent);
+}
