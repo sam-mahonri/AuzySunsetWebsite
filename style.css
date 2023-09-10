@@ -784,7 +784,6 @@ a{
     background-color: var(--secdark);
     border: solid 1px var(--hover_act_d);
     box-shadow: 0px 0px 16px var(--hover_act_d);
-    color: var(--fulldark);
 }
 
 .orange{
