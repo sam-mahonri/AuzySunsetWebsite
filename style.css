@@ -102,7 +102,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: var(--current_background_color);
-    background-image: url("./source/background1.png");
+    background-image: url("./source/background2.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
