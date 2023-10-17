@@ -1277,6 +1277,11 @@ noscript{
 
 }
 
+.li_important{
+    text-shadow: 0 0 16px var(--hover_act_b);
+    color: rgb(255, 224, 224) !important;
+}
+
 .pop_lang_opened{
     opacity: 1;
     max-height: 512px;
