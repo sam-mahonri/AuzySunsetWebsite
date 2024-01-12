@@ -3,11 +3,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 :root {
-    --fulldark: #2b233d;
+    --fulldark: #2a203b;
     --fulllight: #f5f4fd;
     --secdark: #16131dbe;
     --enfdark: rgb(121, 75, 237);
-    --dark-trans: #1c162b;
+    --dark-trans: #42306a;
     --enfdarkbt: #5b4c7470;
     --moredark: #08031d63;
     --seclight: #c6c0f5;
@@ -192,7 +192,7 @@ body {
 }
 
 .nav_reserved_space{
-    width: 280px;
+    width: 300px;
 }
 
 .content_vertical{
@@ -277,18 +277,15 @@ body {
     overflow-y: auto;
     top: 0;
     left: 0;
-    width: 280px;
+    width: 300px;
     height: 100%;
     background-color: var(--dark-trans);
     background-image: url('./source/navbar_back.png');
     background-size: 100% contain;
     animation: gradient_scr_none 100s ease-in-out infinite;
     box-sizing: border-box;
-    border-right: solid 1px var(--enfdark);
-    
 
 }.navbar_area:hover{
-    box-shadow: 0px 0px 16px var(--enfdark);
     border-color: var(--enfdark);
 }
 
@@ -317,7 +314,7 @@ body {
     flex-direction: column;
     width: 100%;
     flex-grow: 1;
-    padding: 8px;
+    padding: 16px;
     box-sizing: border-box;
 }
 
@@ -454,12 +451,10 @@ a{
         
         position: fixed;
         width: 100%;
-        border-right: solid 0px;
-        border-bottom: solid 1px var(--enfdark);
+
         height: 64px;
         background-color: var(--dark-trans);
         box-sizing: border-box;
-        box-shadow: 0px 0px 16px var(--enfdark);
     }
     .desktop{
         display: none;
