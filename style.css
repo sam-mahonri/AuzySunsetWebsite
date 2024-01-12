@@ -3,11 +3,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 :root {
-    --fulldark: #2a203b;
+    --fulldark: #1e172a;
     --fulllight: #f5f4fd;
     --secdark: #16131dbe;
     --enfdark: rgb(121, 75, 237);
-    --dark-trans: #42306a;
+    --dark-trans: #392b58;
     --enfdarkbt: #56427670;
     --moredark: #08031d63;
     --seclight: #c6c0f5;
@@ -619,7 +619,6 @@ a{
 
 .gallery-item img:hover {
     opacity: 1;
-    border: solid 1px var(--enfdark);
     box-shadow: 0px 0px 16px var(--enfdark);
 }
 
@@ -1157,6 +1156,7 @@ footer > a > img:hover{
     margin-bottom: 16px;
     border-radius: 16px;
     box-shadow: none !important;
+    border: none !important;
 }
 
 noscript{
