@@ -470,6 +470,10 @@ a{
         height: 100%;
     }
 
+    .rowToColumn{
+        flex-direction: column !important;
+    }
+
     .bottle{
         height: 90%;
     }
@@ -1123,8 +1127,6 @@ footer > a > img:hover{
 .post_card:hover{
     translate: 0px -8px !important;
     background-color: #2119273c;
-    box-shadow: 0px 0px 16px var(--enfdark);
-    border: solid 1px var(--enfdark);
 }
 
 .title_post{
@@ -1301,4 +1303,23 @@ noscript{
 
 ::-webkit-scrollbar-thumb:horizontal {
     background-image: linear-gradient(to right, transparent,var(--enfdark) ,transparent);
+}
+
+.rowToColumn{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+}.rowToColumn > .card_button{
+    width: 300px !important;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rowToColumn > img{
+    width: 50px;
 }
