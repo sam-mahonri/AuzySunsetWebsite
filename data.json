@@ -1,5 +1,57 @@
 [   
     {
+        "foto": "https://pbs.twimg.com/media/GJJrmbeWQAAMhTb?format=png&name=large",
+        "post": "https://twitter.com/auzysun/status/1770595930703638930/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GI-J57SWYAAnYXi?format=jpg&name=large",
+        "post": "https://twitter.com/auzysun/status/1769784935735288007"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GI1BXgKW0AAPxno?format=jpg&name=medium",
+        "post": "https://twitter.com/auzysun/status/1769142158911586425"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GIUzUMlWUAACw2P?format=jpg&name=4096x4096",
+        "post": "https://twitter.com/auzysun/status/1766874999120380271/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GHyAnR7XsAA2pvg?format=jpg&name=medium",
+        "post": "https://twitter.com/auzysun/status/1764426595157057692"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GHYMrRKWcAE2-px?format=png&name=large",
+        "post": "https://twitter.com/auzysun/status/1762610662293877016/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GHIekvOXUAA78g3?format=jpg&name=medium",
+        "post": "https://twitter.com/auzysun/status/1761504246279647483"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GHE8QSEXAAAYgvy?format=jpg&name=4096x4096",
+        "post": "https://twitter.com/auzysun/status/1761255371664933362"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GGmO3AKWIAEga_Z?format=jpg&name=small",
+        "post": "https://twitter.com/auzysun/status/1759094233762234623/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GGKwzWHWoAAYsH9?format=jpg&name=4096x4096",
+        "post": "https://twitter.com/auzysun/status/1757161265309376842/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GF6Ms46XUAAD4ba?format=jpg&name=medium",
+        "post": "https://twitter.com/auzysun/status/1755995674963841518/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GFXfxOAWYAAN32G?format=jpg&name=large",
+        "post": "https://twitter.com/auzysun/status/1753553760649871643/photo/1"
+    },
+    {
+        "foto": "https://pbs.twimg.com/media/GFWI7SmXQAAGNxd?format=jpg&name=large",
+        "post": "https://twitter.com/auzysun/status/1753458497654567350/photo/1"
+    },
+    {
         "foto": "https://pbs.twimg.com/media/GEd8SuDWEAAs9De?format=jpg&name=medium",
         "post": "https://twitter.com/auzysun/status/1749503705697636750/photo/1"
     },
