@@ -54,9 +54,19 @@
                         </a>
                     </div>
                     <div class="divisor"></div>
-                    <div class="content_vertical" id="prices">
-                        <img src="source/posts/commbrdesktop.svg">
-                    </div>
+                    
+                    <picture style="max-width: 100%; height: 100%; display: block; align-self: center;">
+                        <!-- Imagem para telas maiores que 700px -->
+                        <source srcset="/source/posts/commbrdesktop.svg" media="(min-width: 701px)">
+                        <!-- Imagem para telas menores ou iguais a 700px -->
+                        <source srcset="/source/posts/commbrmobile.svg" media="(max-width: 700px)">
+                        <!-- Fallback para navegadores que não suportam a tag <picture> -->
+                        <img src="/source/posts/commbrdesktop.svg" style="max-width: 100%; height: 100%; object-fit: contain;" alt="Descrição da imagem">
+                    </picture>
+                    
+                        
+                        
+                    
                     <div class="divisor"></div>
                     
                     

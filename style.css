@@ -1017,11 +1017,11 @@ button, a > button{
     height: 100%;
     width: 100%;
     background-color: var(--fulldark);
-    animation: splash 2s forwards;
+    animation: splash 1.5s forwards;
 }
 
 .splash_all > .big_logo{
-    animation: bounce_logo 2s forwards;
+    animation: bounce_logo 1.5s forwards;
 }
 
 @keyframes splash{
